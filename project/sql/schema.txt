@@ -1,0 +1,33 @@
+user
+-------------------------------------------
+PRIMARY KEY(id)
+neme
+-------------------------------------------
+
+review
+-------------------------------------------
+PRIMARY KEY(id)
+review_value value 1 to 5
+-------------------------------------------
+
+movie
+-------------------------------------------
+PRIMARY KEY(id)
+title name of movie
+user_id FOREIGN KEY (user_id) REFERENCES user(id)
+review value REFERENCES review(id)
+-------------------------------------------
+
+category
+-------------------------------------------
+PRIMARY KEY(id)
+category_name
+-------------------------------------------
+
+movie_deatils
+-------------------------------------------
+PRIMARY KEY(id)
+movie_id REFERENCES movie(id)
+movie_category REFERENCES category(id)
+-------------------------------------------
+
