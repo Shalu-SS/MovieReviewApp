@@ -1,7 +1,7 @@
 # MovieReviewApp
 A simple app that enables user to review, comment and search movies. A CRUD app, built in Flask and uses CSV files for data storage and JWT for authentication.
 
-#APIs
+# APIs
 * login
 * register
 * delete user
